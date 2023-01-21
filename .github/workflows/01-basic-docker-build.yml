@@ -31,4 +31,4 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/allhands22a:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/allhands22:01
+            ${{ secrets.DOCKERHUB_USERNAME }}/allhands22:01 
